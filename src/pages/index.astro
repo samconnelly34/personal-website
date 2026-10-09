@@ -1,11 +1,9 @@
 ---
-import Welcome from '../components/Welcome.astro';
-import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import '../styles/global.css';
 ---
-
-<Layout>
-	<Welcome />
-</Layout>
+<html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><meta name="description" content="Sam Connelly — work, projects, reading, and notes."/><title>Sam Connelly — Home</title></head><body><div class="shell">
+<header class="top"><a class="brand" href="/">Sam Connelly</a><nav class="nav" aria-label="Main navigation"><a href="/">Home</a><a href="/work">Work</a><a href="/reading">Reading</a><a href="/notes">Notes</a></nav></header>
+<main><section class="intro"><div class="eyebrow">Hello, I'm Sam · Chicago</div><h1>Curious about how things work,<br/>and how to make them better.</h1><p>I work across business, technology, and growth—helping people untangle complex problems and build better systems. This is a little corner of the internet for my work, side projects, things I'm reading, and ideas I want to remember.</p><p class="muted" style="font-size:13px">Currently thinking about AI, learning through practice, and the systems behind good decisions.</p></section>
+<div class="columns"><div><section class="section"><h2>What I'm working on</h2><div class="entry"><h3><a href="/projects/ai-coaching-staff">AI Coaching Staff <span class="arrow">↗</span></a> <span class="tag">In progress</span></h3><p>A personal tool for turning real work into better feedback, practice, and professional growth.</p></div><div class="entry"><h3><a href="/work">Growth & technology systems <span class="arrow">↗</span></a></h3><p>Years spent connecting customer data, analytics, business questions, and the people who use them.</p></div></section><section class="section"><h2>A bit about me</h2><p>I've spent 7+ years in technology consulting, from discovery and strategy through hands-on implementation. I like the messy middle where technical decisions meet business reality.</p><p><a href="/work">More about my experience →</a></p></section></div>
+<div><section class="section"><h2>Things I'm interested in</h2><ul class="list"><li>Technology, AI & how people learn</li><li>Architecture, design & the built world</li><li>History, books & good stories</li><li>Cooking, wine & menswear</li></ul></section><section class="section"><h2>Reading & collecting</h2><p>I save interesting articles, read across subjects, and try to hold onto the ideas worth revisiting. This section will become a growing bookshelf and commonplace notebook.</p><p><a href="/reading">Visit the reading shelf →</a></p></section><section class="section"><h2>Small notes</h2><p>Questions, observations, and half-formed thoughts from work and life—short enough to actually write down.</p><p><a href="/notes">Browse notes →</a></p></section></div></div></main>
+<footer class="footer"><span>© {new Date().getFullYear()} Sam Connelly</span><span>Made slowly, on purpose.</span></footer></div></body></html>
